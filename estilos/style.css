@@ -26,7 +26,6 @@ section#login{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     overflow: hidden;
 
     background-color: white;
@@ -37,6 +36,7 @@ section#login{
 
     transition: width 0.3s, heigt 0.3s;
     transition-timing-function: ease;
+    transform: translate(-50%, -50%);
 }
 section#login>div#imagem{
     display: block;
@@ -81,10 +81,10 @@ div.campo > input{
     float: right;
     width: calc(100% - 40px);
     height: 100%;
-    transform: translatey(-0px);
     border: 0px;
     border-radius: 8px;
     padding: 4px;
+    transform: translatey(-0px);
 }
 div.campo > input:focus-within{
     background-color: white;
